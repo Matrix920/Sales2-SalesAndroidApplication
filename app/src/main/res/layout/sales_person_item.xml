@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/layout_v_l_details_padding"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/items_group"
+        android:layout_marginTop="@dimen/items_group"
+        android:layout_marginEnd="@dimen/items_group"
+        android:layout_marginBottom="@dimen/items_group"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/strID"
+            android:textColor="@color/item_name_color" />
+
+        <TextView
+            android:id="@+id/txtPersonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/items_group"
+        android:layout_marginTop="@dimen/items_group"
+        android:layout_marginEnd="@dimen/items_group"
+        android:layout_marginBottom="@dimen/items_group"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/strFullName"
+            android:textColor="@color/item_name_color" />
+
+        <TextView
+            android:id="@+id/txtFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/items_group"
+        android:layout_marginTop="@dimen/items_group"
+        android:layout_marginEnd="@dimen/items_group"
+        android:layout_marginBottom="@dimen/items_group"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/str_year"
+            android:textColor="@color/item_name_color" />
+
+        <TextView
+            android:id="@+id/txtYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/items_group"
+        android:layout_marginTop="@dimen/items_group"
+        android:layout_marginEnd="@dimen/items_group"
+        android:layout_marginBottom="@dimen/items_group"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/str_month"
+            android:textColor="@color/item_name_color" />
+
+        <TextView
+            android:id="@+id/txtMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/items_group"
+        android:layout_marginTop="@dimen/items_group"
+        android:layout_marginEnd="@dimen/items_group"
+        android:layout_marginBottom="@dimen/items_group"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/str_region_name"
+            android:textColor="@color/item_name_color" />
+
+        <TextView
+            android:id="@+id/txtRegionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/items_group"
+        android:layout_marginTop="@dimen/items_group"
+        android:layout_marginEnd="@dimen/items_group"
+        android:layout_marginBottom="@dimen/items_group"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_view_commissions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/str_view_commisttions"
+            android:textColor="@color/item_name_color" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/str_update"
+            android:textColor="@color/item_name_color" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/item_name_margin_right"
+            android:layout_weight="1"
+            android:text="@string/str_delete"
+            android:textColor="@color/item_name_color" />
+    </LinearLayout>
+
+</LinearLayout>
